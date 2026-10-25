@@ -87,3 +87,5 @@ Khi bạn nhận làm một chức năng mới:
    - Khai báo ID màn hình mới trong `nav_graph.xml`.
 4. **Viết Fragment & ViewModel**:
    - Tạo Fragment và ViewModel trong `app-user/src/main/.../ui/<tên_chức_năng>/`.
+
+---
