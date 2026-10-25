@@ -1,0 +1,24 @@
+# Build outputs
+build/
+**/build/
+
+# IDE & Config
+*.iml
+.gradle/
+local.properties
+.idea/
+.DS_Store
+/captures
+.externalNativeBuild
+.cxx
+gradle/gradle-daemon-jvm.properties
+
+.kotlin/
+hs_err_pid*.log
+
+# Secrets & Credentials
+*.jks
+*.keystore
+signing.properties
+secrets.properties
+google-services.json
