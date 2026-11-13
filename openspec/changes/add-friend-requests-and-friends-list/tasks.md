@@ -72,3 +72,4 @@
 - Hosted: verified `send_friend_request`/`friend_mutate` bodies matched the repo before replacing them; applied the migration through the linked Management API and recorded version `20261027150000 friend_notifications`. Verified both new RPCs are definer, empty search_path, authenticated-only; private helpers not exposed; new indexes present. The two pending requests created before this migration have no notification rows (no backfill performed); they appear in the Lời mời nhận tab.
 - `gradlew.bat :backend:testDebugUnitTest :app-user:testDebugUnitTest :app-user:assembleDebug` passed; added three NotificationViewModelTest cases. No two-account device smoke test was performed.
 - Not addressed: the pre-existing `notifications_insert_as_actor` policy plus default Supabase table grants still allow authenticated users to insert notifications directly with themselves as actor.
+

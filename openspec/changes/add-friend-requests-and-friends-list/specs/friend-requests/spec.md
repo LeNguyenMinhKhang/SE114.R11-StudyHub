@@ -144,3 +144,4 @@ The system SHALL create an in-app notification for the addressee when a new pend
 #### Scenario: Request withdrawn
 - **WHEN** A cancels a pending request to B
 - **THEN** B no longer sees the friend_request notification from A
+
